@@ -1,0 +1,1 @@
+"C:\Program Files\Redis\redis-server.exe" --service-install "C:\Program Files\Redis\redis.windows-service-6381.conf" --service-name redis6381 --port 6381

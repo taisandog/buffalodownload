@@ -1,0 +1,7 @@
+先运行setup.bat，再运行setupStart.reg
+然后到
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\memcached
+把ImagePath改成
+"D:\Program Files\memcached\memcached.exe" -p 11211 -m 1024 -I 10m -d runservice
+
+D:\Program Files\memcached为安装目录，11211 为监听端口，1024为可用内存是1024M
